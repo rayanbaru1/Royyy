@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royyy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .profile {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+        
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid rgba(255,255,255,0.3);
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .social {
+            margin-top: 30px;
+        }
+        
+        .social a {
+            color: white;
+            font-size: 24px;
+            margin: 0 15px;
+            transition: all 0.3s;
+        }
+        
+        .social a:hover {
+            transform: scale(1.2);
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <!-- Ganti foto kamu disini -->
+            <img src="https://ibb.co.com/xKsYmWNK/120/ff6b6b/ffffff?text=👤" alt="Profile">
+            <h1>Helo Bray</h1>
+            <p class="subtitle">Perkenalkan nama saya Muhammad Rayan Ibrahim dari kelas 3 ikhwan</p>
+            <a href="https://wa.me/6285863383818" class="btn">Chat WhatsApp</a>
+            <a href="mailto:yannnbaee01@gmail.com" class="btn">📧 Email</a>
+        </div>
+        
+        <div class="social">
+            <a href="#">📘 Facebook</a>
+            <a href="#">📱 Instagram</a>
+            <a href="#">👾Tik tok</a>
+        </div>
+    </div>
+</body>
+</html>
